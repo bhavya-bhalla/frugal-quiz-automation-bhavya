@@ -1,0 +1,27 @@
+Jan 01, 2026 3:41:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Jan 01, 2026 3:41:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+---------- TEST STARTED ----------
+[INFO] Opened URL: file:///C:/Users/Pc/Documents/Frugal/quiz-app/index.html
+[INFO] Page Title Detected: Quiz Application
+[PASS] Landing Page Verification Successful
+[ACTION] Clicked Start Quiz
+[INFO] Answering Question #1
+[ACTION] Selected Option 1
+[ACTION] Clicked Next
+[INFO] Answering Question #2
+[ACTION] Selected Option 1
+[ACTION] Clicked Next
+[INFO] Answering Question #3
+[ACTION] Selected Option 1
+[ACTION] Clicked Next
+[INFO] Answering Question #4
+[ACTION] Selected Option 1
+[ACTION] Clicked Next
+[INFO] Answering Question #5
+[ACTION] Selected Option 1
+[ACTION] Clicked Next
+[INFO] RESULT TEXT: You scored 5 / 5
+[PASS] Result Page Verified Successfully
+---------- TEST COMPLETED ----------
