@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Results</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Your Results</h2>
+
+    <!-- Score Text -->
+    <p id="summary" style="font-size:18px; font-weight:bold; margin-bottom:15px;"></p>
+
+    <!-- Chart Canvas -->
+    <canvas id="resultChart" width="300" height="250"></canvas>
+
+    <!-- Restart -->
+    <button onclick="window.location.href='index.html'" style="margin-top:20px;">Restart</button>
+  </div>
+
+  <!-- Your Chart Handling Script -->
+  <script src="chart.js"></script>
+</body>
+</html>

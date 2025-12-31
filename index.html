@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Dynamic Quiz Application</h1>
+    <label>Select Category:</label>
+    <select id="category">
+      <option value="gk">General Knowledge</option>
+      <option value="aptitude">Aptitude</option>
+      <option value="programming">Programming</option>
+    </select>
+
+    <label>Select Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <script>
+    function startQuiz() {
+      const category = document.getElementById("category").value;
+      const difficulty = document.getElementById("difficulty").value;
+      localStorage.setItem("category", category);
+      localStorage.setItem("difficulty", difficulty);
+      window.location.href = "quiz.html";
+    }
+  </script>
+</body>
+</html>
